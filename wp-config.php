@@ -1,21 +1,4 @@
 <?php
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
-    $_SERVER['HTTPS'] = 'on';
-}
-
-// Redirect HTTP to HTTPS
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === 'off') {
-    $redirect_url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    header("Location: $redirect_url", true, 301);
-    exit();
-}
-
-// Rest of your wp-config.php code here...
-
-if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
-     $_SERVER['HTTPS'] = 'on';
-}
-
 /**
  * The base configuration for WordPress
  *
@@ -28,9 +11,10 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
  * * Database settings
  * * Secret keys
  * * Database table prefix
+ * * Localized language
  * * ABSPATH
  *
- * @link https://wordpress.org/documentation/article/editing-wp-config-php/
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -40,13 +24,13 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 define( 'DB_NAME', 'wp' );
 
 /** Database username */
-define( 'DB_USER', 'yash' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
-define( 'DB_HOST', '52.72.81.32' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -65,14 +49,16 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',          'd-J4@%L@8D*sk^p(?{-:EnvaHcbH0)/4/ATi_29~t$$GI0}QFPRZSe8C@ QJ<:}t' );
+define( 'SECURE_AUTH_KEY',   'k%4iBURY}iDuI),kp~#$1kkmpUIyZ;e{mjZvxA^wmTvEzBh`xHz&-L+oC AZ>q|v' );
+define( 'LOGGED_IN_KEY',     'a,j^Mn|Hpm:!k1:wTS}7,&k<(A>d#%4aK2BL<UHWqV)HkAmDxPtsVVGvQnr?Z 63' );
+define( 'NONCE_KEY',         'JX&[I?l=2~_<X# c[AA2:O|t^|z%JJ.7P/Zj@g4ZuA,A`?7SuJ|i=GqdRP,z*d o' );
+define( 'AUTH_SALT',         'd(1/7,se7juUw*))_[S]#Tqdzt~#xI],O:]Y0o4cAQh Nk3mb6OK#6L(8Nf<zI+c' );
+define( 'SECURE_AUTH_SALT',  'jU^T@+I7~W:ju%Kd =EQmG_n_s1%0hb-0F%a#!w?0A,>gh{afhC4XQytIe@-T-|~' );
+define( 'LOGGED_IN_SALT',    'r:;^rv@nCNH:@wBv<0w$3(fe#_,%JS!KnGV1R]Wo*}.Ks;:)F3pM(:j>P.|^;ams' );
+define( 'NONCE_SALT',        '4*A&q(*~=b1]k4 Mb<[4t[W[|oYg&Y_M3ry?qTuV47qQ9XyWds%Gk:im&Hmm!J<q' );
+define( 'WP_CACHE_KEY_SALT', 'g_7:E+Bv{+eIYaR8H+ i6dfQTy@:C}r%%WJ74Jl^#}#@c:R@CCWa(s@oiQU&1ys*' );
+
 
 /**#@-*/
 
@@ -84,6 +70,11 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  */
 $table_prefix = 'wp_';
 
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -94,22 +85,24 @@ $table_prefix = 'wp_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+if ( ! defined( 'WP_DEBUG' ) ) {
+	define( 'WP_DEBUG', false );
+}
 
-/* Add any custom values between this line and the "stop editing" line. */
+
 
 define( 'WP_ALLOW_MULTISITE', true );
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
-define( 'DOMAIN_CURRENT_SITE', 'wp.byklabs.store' );
+$base = '/';
+define( 'DOMAIN_CURRENT_SITE', 'wp1.local' );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
-
-
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
