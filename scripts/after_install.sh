@@ -14,10 +14,8 @@ sudo chmod 644 /var/www/html/wp-config.php  # Ensure correct permissions
 
 # Check if wp-mail.php exists before copying
 if [ ! -f "/var/www/html/wp-mail.php" ]; then
-    sudo cp /path/to/your/wp-mail.php /var/www/html/wp-mail.php  # Replace with the correct path to your wp-mail.php file
+    sudo cp /var/www/html_backup/wp-mail.php /var/www/html/wp-mail.php  # Replace with the correct path to your wp-mail.php file
     sudo chown www-data:www-data /var/www/html/wp-mail.php  # Change ownership if needed
     sudo chmod 644 /var/www/html/wp-mail.php  # Ensure correct permissions
 fi
 sudo systemctl restart nginx
-# Restart services if needed
-# sudo systemctl restart apache2  # If using Apache instead of Nginx
