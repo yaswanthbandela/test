@@ -13,3 +13,4 @@ sudo chown www-data:www-data /var/www/html/wp-config.php  # Change ownership if 
 sudo chmod 644 /var/www/html/wp-config.php  # Ensure correct permissions
 
 sudo systemctl restart nginx
+
