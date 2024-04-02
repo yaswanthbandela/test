@@ -3,8 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html
-    exclude:  # This section defines files to exclude
-      - wp-mail.php
+    overwrite: yes
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
