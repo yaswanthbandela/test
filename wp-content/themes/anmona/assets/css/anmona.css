@@ -1,0 +1,89 @@
+/* 
+* Anmona: A simple and minimalistic theme for WordPress.
+* CSS Stylesheet for Anmona WordPress Theme
+*/
+
+/* Block Start and End Margin */
+:where(.wp-site-blocks) > * {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+/* Author */
+
+.wp-block-post-author__content {
+    margin-block-start: 0;
+}
+
+.wp-block-post-author__avatar {
+    display: flex;
+    align-items: center;
+}
+
+.wp-block-post-author__avatar img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.wp-block-post-author__bio {
+    font-size: .7em;
+    margin-bottom: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+}
+
+
+/* Responsive Navigation */
+/* .wp-block-navigation__responsive-container */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+    background-color: #1D296D !important;
+}
+
+/* Screen Reader */
+.skip-link.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    word-wrap: normal !important;
+    border: 0;
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* Navigation */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+    background-color: var(--wp--preset--color--anmona-white, #ffffff);
+}
+
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu .wp-block-navigation-item__content {
+    color: var(--wp--preset--color--anmona-black, #232323);
+}
+
+.wp-block-navigation__submenu-container.wp-block-navigation-submenu{
+    gap: 0.5em !important;
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 600px) {
+    .wp-block-navigation__submenu-container.wp-block-navigation-submenu .wp-block-navigation-item__content {
+        color: var(--wp--preset--color--anmona-white, #ffffff);
+    }
+}

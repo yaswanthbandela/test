@@ -1,0 +1,358 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Anmona\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-16 17:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: anmona"
+
+#: patterns/pricing-table-two.php:96 patterns/pricing-table.php:96
+msgid "$59"
+msgstr ""
+
+#: patterns/pricing-table-two.php:184 patterns/pricing-table.php:184
+msgid "$99"
+msgstr ""
+
+#: patterns/counter.php:17
+msgid "10+"
+msgstr ""
+
+#: patterns/counter.php:41
+msgid "10k+"
+msgstr ""
+
+#: patterns/counter.php:29
+msgid "200k+"
+msgstr ""
+
+#: patterns/pricing-table-two.php:139 patterns/pricing-table.php:139
+msgid "2GB Hosting Storage"
+msgstr ""
+
+#: patterns/skill-set.php:84 patterns/skill-set-two.php:84
+msgid "55%"
+msgstr ""
+
+#: patterns/counter.php:53
+msgid "5k+"
+msgstr ""
+
+#: patterns/pricing-table-two.php:217 patterns/pricing-table.php:217
+msgid "5TB storage"
+msgstr ""
+
+#: patterns/skill-set.php:112 patterns/skill-set-two.php:112
+msgid "60%"
+msgstr ""
+
+#: patterns/skill-set.php:56 patterns/skill-set-two.php:56
+msgid "70%"
+msgstr ""
+
+#: patterns/skill-set.php:28 patterns/skill-set-two.php:28
+msgid "80%"
+msgstr ""
+
+#: patterns/pricing-table-two.php:227 patterns/pricing-table.php:227
+msgid "Agency access"
+msgstr ""
+
+#: patterns/pricing-table-two.php:119 patterns/pricing-table.php:119
+msgid "All Free"
+msgstr ""
+
+#: patterns/pricing-table-two.php:149 patterns/pricing-table.php:149
+msgid "All Plugins Configuration"
+msgstr ""
+
+#: patterns/pricing-table-two.php:207 patterns/pricing-table.php:207
+msgid "All Premium"
+msgstr ""
+
+#: patterns/footer.php:26 patterns/footer-two.php:26
+msgid "All Rights Reserved By Anmona - 2024"
+msgstr ""
+
+#. Name of the theme
+#: functions.php:112
+msgid "Anmona"
+msgstr ""
+
+#: patterns/service-two.php:38 patterns/service-two.php:54
+#: patterns/service-two.php:70 patterns/service.php:38 patterns/service.php:54
+#: patterns/service.php:70
+msgid ""
+"Anmona empowers users to craft stunning websites with unparalleled ease and "
+"flexibility."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Anmona is Gutenberg based Full Site Editing WordPress block theme that "
+"satisfies different purposes. Effortlessly craft stunning websites with "
+"intuitive block-based editing. Customize every detail, seamlessly integrate "
+"plugins, and unleash limitless creativity."
+msgstr ""
+
+#: patterns/hero.php:28 patterns/business-header.php:41
+#: patterns/transparent-header.php:43
+msgid ""
+"Anmona is not just another WordPress theme; it's a revolution in web design. "
+"Built upon the innovative concept of full site editing, Anmona empowers "
+"users to craft stunning websites with unparalleled ease and flexibility."
+msgstr ""
+
+#: patterns/pricing-table-two.php:29 patterns/pricing-table.php:29
+msgid "Basic"
+msgstr ""
+
+#: patterns/pricing-table-two.php:71 patterns/pricing-table.php:71
+msgid "Best Hosting Suggestion"
+msgstr ""
+
+#: patterns/service-two.php:66 patterns/service.php:66
+msgid "block Development"
+msgstr ""
+
+#: patterns/cta.php:33 patterns/cta-two.php:33
+msgid "Book Appointment"
+msgstr ""
+
+#: patterns/pricing-table-two.php:179 patterns/pricing-table.php:179
+msgid "Business"
+msgstr ""
+
+#: patterns/testimonial.php:38 patterns/testimonial.php:56
+#: patterns/testimonial.php:74 patterns/testimonial-two.php:37
+#: patterns/testimonial-two.php:55 patterns/testimonial-two.php:73
+msgid "CEO, Gutenbergkits"
+msgstr ""
+
+#: patterns/hero.php:20 patterns/transparent-header.php:35
+msgid "Charlie"
+msgstr ""
+
+#: patterns/pricing-table-two.php:21 patterns/pricing-table.php:21
+msgid "Choose best pricing that suites your requirement."
+msgstr ""
+
+#: patterns/testimonial.php:22 patterns/testimonial-two.php:21
+msgid "Clients Feedback"
+msgstr ""
+
+#: patterns/cta.php:29 patterns/cta-two.php:29
+msgid "Contact Now"
+msgstr ""
+
+#: patterns/cta-three.php:27 patterns/cta-four.php:27
+msgid "Contact now"
+msgstr ""
+
+#: patterns/skill-set.php:18 patterns/skill-set-two.php:18
+msgid "Development Skills"
+msgstr ""
+
+#: patterns/pricing-table-two.php:61 patterns/pricing-table.php:61
+msgid "Domain Suggestion"
+msgstr ""
+
+#: patterns/hero.php:33 patterns/business-header.php:46
+#: patterns/transparent-header.php:48
+msgid "Download My CV"
+msgstr ""
+
+#: patterns/cta-three.php:20 patterns/cta.php:24 patterns/cta-two.php:24
+msgid ""
+"Empower change today! Join our community of doers committed to making a "
+"difference. Take action now to support causes that matter."
+msgstr ""
+
+#: patterns/cta-four.php:20
+msgid ""
+"Empower change today! Join our community of doers committed to making a "
+"difference. Take action now to support causes that matter. "
+msgstr ""
+
+#: patterns/business-header.php:37
+msgid "Empower Gutenberg Functionalities"
+msgstr ""
+
+#: patterns/pricing-table-two.php:81 patterns/pricing-table.php:81
+msgid "Finding best Plugins"
+msgstr ""
+
+#: patterns/pricing-table-two.php:33 patterns/pricing-table.php:33
+msgid "FREE"
+msgstr ""
+
+#: patterns/pricing-table-two.php:129 patterns/pricing-table.php:129
+msgid "Full Site Creating Up to 5 Pages"
+msgstr ""
+
+#: patterns/pricing-table-two.php:38 patterns/pricing-table-two.php:106
+#: patterns/pricing-table-two.php:194 patterns/pricing-table.php:38
+#: patterns/pricing-table.php:106 patterns/pricing-table.php:194
+msgid "Get Started"
+msgstr ""
+
+#: patterns/counter.php:33
+msgid "Happy Clients"
+msgstr ""
+
+#: patterns/counter.php:57
+msgid "Happy Supports"
+msgstr ""
+
+#: patterns/skill-set.php:24 patterns/skill-set-two.php:24
+msgid "HTML-CSS"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gutenbergkits.com"
+msgstr ""
+
+#: patterns/pricing-table-two.php:169 patterns/pricing-table.php:169
+msgid "Huge Attachments"
+msgstr ""
+
+#: patterns/project.php:28 patterns/project-two.php:28
+msgid ""
+"I have completed hundreds of WordPress based Projects including themes, "
+"plugins, and Gutenberg based blocks. Here I have noted some notable items "
+"that I have completed recently for different clients."
+msgstr ""
+
+#: patterns/service-two.php:23 patterns/service.php:23
+msgid "I offer different types of WordPress based services"
+msgstr ""
+
+#: patterns/testimonial.php:29 patterns/testimonial.php:47
+#: patterns/testimonial.php:65
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. The point of using "
+"this is that it has a more-or-less normal"
+msgstr ""
+
+#: patterns/testimonial-two.php:32 patterns/testimonial-two.php:50
+#: patterns/testimonial-two.php:68
+msgid ""
+"It is a long established fact that a reader will be distracted by the "
+"readable content of a page when looking at its layout. The point of using "
+"this is that it has a more-or-less normal."
+msgstr ""
+
+#: patterns/skill-set.php:80 patterns/skill-set-two.php:80
+msgid "JavaScript"
+msgstr ""
+
+#: patterns/testimonial.php:38 patterns/testimonial.php:56
+#: patterns/testimonial.php:74 patterns/testimonial-two.php:37
+#: patterns/testimonial-two.php:55 patterns/testimonial-two.php:73
+msgid "John Doe"
+msgstr ""
+
+#: patterns/cta-three.php:16 patterns/cta.php:20 patterns/cta-four.php:16
+#: patterns/cta-two.php:20
+msgid "Let's discuss about your next project"
+msgstr ""
+
+#: patterns/hero.php:40
+msgid "Mr. charlie"
+msgstr ""
+
+#: patterns/skill-set.php:14 patterns/skill-set-two.php:14
+msgid "My Different Skillsets"
+msgstr ""
+
+#: patterns/project.php:24 patterns/project-two.php:24
+msgid "My Projects"
+msgstr ""
+
+#: patterns/service-two.php:19 patterns/service.php:19
+msgid "My Services"
+msgstr ""
+
+#: patterns/business-header.php:33
+msgid "No. 1 Leading IT Company"
+msgstr ""
+
+#: patterns/skill-set.php:52 patterns/skill-set-two.php:52
+msgid "PHP"
+msgstr ""
+
+#: patterns/service-two.php:50 patterns/service.php:50
+msgid "Plugin Development"
+msgstr ""
+
+#: patterns/counter.php:45
+msgid "Positive Review"
+msgstr ""
+
+#: patterns/pricing-table-two.php:91 patterns/pricing-table.php:91
+msgid "Premium"
+msgstr ""
+
+#: patterns/pricing-table-two.php:17 patterns/pricing-table.php:17
+msgid "Pricing"
+msgstr ""
+
+#: patterns/skill-set.php:108 patterns/skill-set-two.php:108
+msgid "React"
+msgstr ""
+
+#: patterns/pricing-table-two.php:237 patterns/pricing-table.php:237
+msgid "Reseller access"
+msgstr ""
+
+#: patterns/search.php:35
+msgid "Sorry! nothing found"
+msgstr ""
+
+#: patterns/hero.php:24 patterns/transparent-header.php:39
+msgid "Sr. WordPress Developer"
+msgstr ""
+
+#: patterns/testimonial.php:18 patterns/testimonial-two.php:17
+msgid "TESTIMONIALS"
+msgstr ""
+
+#: patterns/service-two.php:34 patterns/service.php:34
+msgid "Theme Development"
+msgstr ""
+
+#: patterns/pricing-table-two.php:51 patterns/pricing-table.php:51
+msgid "Up to 10 minutes Project consultation"
+msgstr ""
+
+#: patterns/pricing-table-two.php:100 patterns/pricing-table-two.php:188
+#: patterns/pricing-table.php:100 patterns/pricing-table.php:188
+msgid "USD / year"
+msgstr ""
+
+#: patterns/project.php:33 patterns/project-two.php:33
+msgid "View All Projects"
+msgstr ""
+
+#: patterns/pricing-table-two.php:159 patterns/pricing-table.php:159
+msgid "White labeling"
+msgstr ""
+
+#: patterns/counter.php:21
+msgid "WordPress Products"
+msgstr ""
+
+#. Author of the theme
+msgid "Zakaria Binsaifullah"
+msgstr ""
