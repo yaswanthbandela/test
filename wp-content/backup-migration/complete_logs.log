@@ -1,0 +1,24 @@
+[2024-04-03 05:13:13] [LOG] Creating backup 
+[2024-04-03 05:13:13] [LOG] Found 2793 files to backup.
+[2024-04-03 05:13:25] [ERROR] There was an error before request shutdown (but it was not logged to restore log)
+[2024-04-03 05:13:25] [ERROR] Error message: filesize(): stat failed for C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups\C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups/BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:13:25] [ERROR] Error file/line: C:\Users\PC\Local Sites\wp1\app\public\wp-content\plugins\backup-backup\includes\zipper\src\zip.php|706
+[2024-04-03 05:13:25] [ERROR] Error handler: ajax#01|2
+[2024-04-03 05:13:31] [ERROR] There was an error before request shutdown (but it was not logged to restore log)
+[2024-04-03 05:13:31] [ERROR] Error message: filesize(): stat failed for C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups\C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups/BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:13:31] [ERROR] Error file/line: C:\Users\PC\Local Sites\wp1\app\public\wp-content\plugins\backup-backup\includes\zipper\src\zip.php|706
+[2024-04-03 05:13:31] [ERROR] Error handler: ajax#01|2
+[2024-04-03 05:13:41] [ERROR] There was an error before request shutdown (but it was not logged to restore log)
+[2024-04-03 05:13:41] [ERROR] Error message: filesize(): stat failed for C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups\C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups/BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:13:41] [ERROR] Error file/line: C:\Users\PC\Local Sites\wp1\app\public\wp-content\plugins\backup-backup\includes\zipper\src\zip.php|706
+[2024-04-03 05:13:41] [ERROR] Error handler: ajax#01|2
+[2024-04-03 05:13:54] [ERROR] There was an error before request shutdown (but it was not logged to restore log)
+[2024-04-03 05:13:54] [ERROR] Error message: filesize(): stat failed for C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups\C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups/BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:13:54] [ERROR] Error file/line: C:\Users\PC\Local Sites\wp1\app\public\wp-content\plugins\backup-backup\includes\zipper\src\zip.php|706
+[2024-04-03 05:13:54] [ERROR] Error handler: ajax#01|2
+[2024-04-03 05:14:03] [ERROR] There was an error before request shutdown (but it was not logged to restore log)
+[2024-04-03 05:14:03] [ERROR] Error message: filesize(): stat failed for C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups\C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration\backups/BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:14:03] [ERROR] Error file/line: C:\Users\PC\Local Sites\wp1\app\public\wp-content\plugins\backup-backup\includes\zipper\src\zip.php|706
+[2024-04-03 05:14:03] [ERROR] Error handler: ajax#01|2
+[2024-04-03 05:14:07] [LOG] New backup created and its name is: BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[2024-04-03 05:14:07] [LOG] Process (backup) finished successfully via ajax.php

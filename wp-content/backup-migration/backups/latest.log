@@ -1,0 +1,138 @@
+[WARN] [2024-04-03 05:13:11] PHP CLI is disabled manually, plugin will omit all PHP CLI steps.
+[WARN] [2024-04-03 05:13:11] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2024-04-03 05:13:11] Initializing backup...
+[INFO] [2024-04-03 05:13:11] Backup & Migration version: 1.4.5
+[INFO] [2024-04-03 05:13:11] Site which will be backed up: http://wp1.local
+[INFO] [2024-04-03 05:13:11] PHP Version: 8.1.23
+[INFO] [2024-04-03 05:13:11] WP Version: 6.4.3
+[INFO] [2024-04-03 05:13:11] MySQL Version: 8.0.16
+[INFO] [2024-04-03 05:13:11] MySQL Max Length: 16777216
+[INFO] [2024-04-03 05:13:11] Web server: nginx/1.16.0
+[INFO] [2024-04-03 05:13:11] Max execution time (in seconds): 1200
+[INFO] [2024-04-03 05:13:11] Memory limit (server): 256M
+[INFO] [2024-04-03 05:13:11] Memory limit (wp-config): 64M
+[INFO] [2024-04-03 05:13:11] Memory limit (wp-config admin): 256M
+[INFO] [2024-04-03 05:13:11] Max rows per query (this site): 2000
+[INFO] [2024-04-03 05:13:11] Checking if backup dir is writable...
+[INFO] [2024-04-03 05:13:11] Initializing custom error handler
+[SUCCESS] [2024-04-03 05:13:11] Yup it is writable...
+[STEP] [2024-04-03 05:13:11] Scanning files...
+[WARN] [2024-04-03 05:13:12] Removing file from backup (due to path rules): C:\Users\PC\Local Sites\wp1\app\public\wp-content\backup-migration-config.php
+[INFO] [2024-04-03 05:13:12] Total size of excluded files: 2178 bytes
+[VERBOSE] [2024-04-03 05:13:12] Total size of excluded files (bytes): 2178
+[STEP] [2024-04-03 05:13:12] Checking free space, reserving...
+[INFO] [2024-04-03 05:13:12] Requires at least 67456734 bytes. [64.33 MB]
+[INFO] [2024-04-03 05:13:12] Disk free space function is disabled by hosting.
+[INFO] [2024-04-03 05:13:12] Using dummy file to check free space (it can take some time).
+[SUCCESS] [2024-04-03 05:13:13] Confirmed, there is more than enough space, checked: 67456734 bytes
+[INFO] [2024-04-03 05:13:13] Scanning done - found 2793 files...
+[SUCCESS] [2024-04-03 05:13:13] Backup initialized...
+[STEP] [2024-04-03 05:13:13] Initializing archiving system...
+[SUCCESS] [2024-04-03 05:13:13] Archive system initialized...
+[STEP] [2024-04-03 05:13:13] Preparing map of files...
+[SUCCESS] [2024-04-03 05:13:13] Files prepared.
+[INFO] [2024-04-03 05:13:13] Starting compression process...
+[STEP] [2024-04-03 05:13:13] Smart memory calculation...
+[INFO] [2024-04-03 05:13:13] There is 384 MBs of memory to use
+[INFO] [2024-04-03 05:13:13] WordPress memory limit: 256 MBs
+[SUCCESS] [2024-04-03 05:13:13] Setting the safe limit to 86 MB
+[INFO] [2024-04-03 05:13:13] ZipArchive is available this process should use ZipArchive
+[INFO] [2024-04-03 05:13:13] Legacy setting: Using default modules depending on user server
+[STEP] [2024-04-03 05:13:13] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2024-04-03 05:13:13] Iterating database...
+[INFO] [2024-04-03 05:13:13] Memory usage after initialization: 4.58 MB
+[VERBOSE] [2024-04-03 05:13:13] Exporting database via zip.php
+[INFO] [2024-04-03 05:13:13] Scan found 28 tables (404 rows), estimated total size: 1.59 MB.
+[INFO] [2024-04-03 05:13:13] Memory usage after getting table names: 4.59 MB 
+[INFO] [2024-04-03 05:13:13] Getting table recipes...
+[INFO] [2024-04-03 05:13:13] Table recipes have been exported.
+[INFO] [2024-04-03 05:13:13] Memory usage after loading recipes: 4.62 MB 
+[INFO] [2024-04-03 05:13:13] Saving recipes...
+[INFO] [2024-04-03 05:13:13] Recipes saved.
+[INFO] [2024-04-03 05:13:13] Memory usage after recipe off-load: 4.60 MB
+[INFO] [2024-04-03 05:13:13] Exporting table data...
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_commentmeta (1/28, 0.05 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_2_commentmeta is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_comments (2/28, 0.09 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_comments finished (0.00244s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_links (3/28, 0.03 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_2_links is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_options (4/28, 0.09 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_options finished (0.03080s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_postmeta (5/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_postmeta finished (0.00248s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_posts (6/28, 0.08 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_posts finished (0.00271s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_term_relationships (7/28, 0.03 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_term_relationships finished (0.00216s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_term_taxonomy (8/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_term_taxonomy finished (0.00220s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_termmeta (9/28, 0.05 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_2_termmeta is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_2_terms (10/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_2_terms finished (0.00285s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_blogmeta (11/28, 0.05 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_blogmeta is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_blogs (12/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_blogs finished (0.00205s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_commentmeta (13/28, 0.05 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_comments (14/28, 0.09 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_comments finished (0.00188s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_links (15/28, 0.03 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_links is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_options (16/28, 0.14 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_options finished (0.01723s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_postmeta (17/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_postmeta finished (0.00175s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_posts (18/28, 0.08 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_posts finished (0.00271s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_registration_log (19/28, 0.03 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_registration_log finished (0.00181s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_signups (20/28, 0.08 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_signups is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_site (21/28, 0.03 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_site finished (0.00187s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_sitemeta (22/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_sitemeta finished (0.00376s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_term_relationships (23/28, 0.03 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_term_relationships finished (0.00160s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_term_taxonomy (24/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_term_taxonomy finished (0.00138s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_termmeta (25/28, 0.05 MB)
+[INFO] [2024-04-03 05:13:13] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_terms (26/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_terms finished (0.00133s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_usermeta (27/28, 0.05 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_usermeta finished (0.00249s)
+[STEP] [2024-04-03 05:13:13] Getting data of table: wp_users (28/28, 0.06 MB)
+[SUCCESS] [2024-04-03 05:13:13] Table export for: wp_users finished (0.00171s)
+[INFO] [2024-04-03 05:13:13] Table data exported.
+[INFO] [2024-04-03 05:13:13] Memory usage after data export: 4.58 MB
+[INFO] [2024-04-03 05:13:13] Entire process took: 0.1950 s
+[SUCCESS] [2024-04-03 05:13:13] Database backup finished
+[STEP] [2024-04-03 05:13:13] Making archive
+[INFO] [2024-04-03 05:13:13] Compressing...
+[WARN] [2024-04-03 05:13:13] Backup will run as single-request, may be unstable...
+[INFO] [2024-04-03 05:13:13] Using ZipArchive extension for this backup process.
+[STEP] [2024-04-03 05:13:13] Adding database SQL file(s) to the backup file.
+[VERBOSE] [2024-04-03 05:13:13] Database files in total found: 28
+[SUCCESS] [2024-04-03 05:13:13] Database added to the backup successfully.
+[STEP] [2024-04-03 05:13:13] Performing site files backup...
+[INFO] [2024-04-03 05:13:13] Chunks contain 250 files.
+[INFO] [2024-04-03 05:13:25] Milestone: 500/2793
+[INFO] [2024-04-03 05:13:31] Milestone: 1000/2793
+[INFO] [2024-04-03 05:13:41] Milestone: 1500/2793
+[INFO] [2024-04-03 05:13:54] Milestone: 2000/2793
+[INFO] [2024-04-03 05:14:03] Milestone: 2500/2793
+[INFO] [2024-04-03 05:14:06] Milestone: 2793/2793
+[SUCCESS] [2024-04-03 05:14:06] Compressed 2793 files
+[INFO] [2024-04-03 05:14:06] Archiving of 2793 files took: 53.17s
+[STEP] [2024-04-03 05:14:06] Finalizing backup
+[INFO] [2024-04-03 05:14:06] Generating manifest file and saving current live-log...
+[INFO] [2024-04-03 05:14:07] Adding manifest...
+[SUCCESS] [2024-04-03 05:14:07] Manifest file and logs added to the backup. Temporary files removed.
+[STEP] [2024-04-03 05:14:07] Closing files and archives
+[SUCCESS] [2024-04-03 05:14:07] Cleanup finished, backup complete.
+[SUCCESS] [2024-04-03 05:14:07] New backup created and its name is: BM_2024-04-03_05_13_11_gSPF9GDEHtjhzoK4.zip
+[END-CODE] [2024-04-03 05:14:07] #001
