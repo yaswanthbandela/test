@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
-    overwrite: yes  #testing...........
+    overwrite: yes  #testing...........1
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
